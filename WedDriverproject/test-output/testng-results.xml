@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="13489" started-at="2017-07-08T23:59:40Z" finished-at="2017-07-08T23:59:54Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="13489" started-at="2017-07-08T23:59:40Z" finished-at="2017-07-08T23:59:54Z">
+      <class name="com.Facebook.Paralleldemonew">
+        <test-method status="PASS" signature="launchBrowser()[pri:0, instance:com.Facebook.Paralleldemonew@573f2bb1]" name="launchBrowser" is-config="true" duration-ms="6908" started-at="2017-07-08T19:59:41Z" finished-at="2017-07-08T19:59:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method status="PASS" signature="loginGoogle()[pri:0, instance:com.Facebook.Paralleldemonew@573f2bb1]" name="loginGoogle" duration-ms="4875" started-at="2017-07-08T19:59:47Z" finished-at="2017-07-08T19:59:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginGoogle -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.Facebook.Paralleldemonew@573f2bb1]" name="closeBrowser" is-config="true" duration-ms="846" started-at="2017-07-08T19:59:52Z" finished-at="2017-07-08T19:59:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- com.Facebook.Paralleldemonew -->
+      <class name="com.Facebook.ParallelDemo">
+        <test-method status="PASS" signature="launchBrowser()[pri:0, instance:com.Facebook.ParallelDemo@402f32ff]" name="launchBrowser" is-config="true" duration-ms="6908" started-at="2017-07-08T19:59:41Z" finished-at="2017-07-08T19:59:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method status="PASS" signature="loginFacebook()[pri:0, instance:com.Facebook.ParallelDemo@402f32ff]" name="loginFacebook" duration-ms="5750" started-at="2017-07-08T19:59:47Z" finished-at="2017-07-08T19:59:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginFacebook -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.Facebook.ParallelDemo@402f32ff]" name="closeBrowser" is-config="true" duration-ms="743" started-at="2017-07-08T19:59:53Z" finished-at="2017-07-08T19:59:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- com.Facebook.ParallelDemo -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

@@ -1,0 +1,9 @@
+
+<suite name="Suite" parallel="classes">
+  <test name="Test">
+    <classes>
+    <parameter name="browser" value="chrome"/>
+      <class name="TestNG.testcase1"/>
+    </classes>
+  </test> 
+</suite> 

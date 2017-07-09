@@ -1,0 +1,15 @@
+
+<suite name="Ecommerce">
+  <test name="SanityTests">
+  <groups>
+  <run>
+  <include name="Regression"/>
+  </run>
+  
+    <classes>
+      
+      <class name="com.testNGdemo.practicetest"/>
+    </classes>
+    </groups>
+  </test> 
+</suite> 
