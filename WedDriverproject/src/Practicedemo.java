@@ -13,6 +13,7 @@ public class Practicedemo{
 	
 	public static void main(String[] args) throws InterruptedException {
 		//this has been modified
+		//testng has been added to the project
 		WebDriver driver=new ChromeDriver();
 		driver.get("https://www.icicibank.com/");
 		driver.manage().deleteAllCookies();
