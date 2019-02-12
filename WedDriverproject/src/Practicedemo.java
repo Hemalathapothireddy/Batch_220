@@ -12,7 +12,7 @@ import org.testng.annotations.Test;
 public class Practicedemo{
 	
 	public static void main(String[] args) throws InterruptedException {
-		
+		//this has been modified
 		WebDriver driver=new ChromeDriver();
 		driver.get("https://www.icicibank.com/");
 		driver.manage().deleteAllCookies();
